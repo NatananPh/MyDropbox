@@ -3,10 +3,10 @@ This repository is for 2110524 Cloud Computing Technologies course Activity 5
 
 #### Source Code Files:
 
-1. **client.py**
+1. **myDropboxClient_6330161821.py**
    - **Functionality**: This script provides a command-line interface for interacting with the myDropbox API. It allows users to perform operations such as viewing files, uploading files, and downloading files.
    
-2. **lambda_function.py**
+2. **myDropbox_6330161821.py**
    - **Functionality**: This is the AWS Lambda function responsible for handling API requests made to the myDropbox service. It implements the logic for uploading files to Amazon S3, retrieving file URLs, and listing files in a folder based on the owner's name.
 
 #### HOWTO for myDropbox API:
