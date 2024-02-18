@@ -1,5 +1,3 @@
-Here's an updated version of the README with the API request body formats included for all APIs:
-
 # MyDropbox
 
 This repository is for the 2110524 Cloud Computing Technologies course Activity 5.
