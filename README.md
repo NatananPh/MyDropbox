@@ -208,5 +208,66 @@ This repository is for the 2110524 Cloud Computing Technologies course Activity 
        "error": "File not found"
    }
    ```
+# HOWTO for Client Code
 
-This README provides instructions for using the MyDropbox system, including API endpoints, request/response formats, client code functionalities, and usage examples.
+The client code provided here allows users to interact with the MyDropbox API through a command-line interface. Below are the functionalities provided by the client code along with usage examples:
+
+## Client Code Functionalities:
+
+- **View Files:** Displays a list of files stored in the MyDropbox service for a specified owner.
+- **Upload File:** Uploads a file to the MyDropbox service.
+- **Download File:** Downloads a file from the MyDropbox service.
+- **Create User:** Registers a new user in the MyDropbox system.
+- **Share File:** Shares a file stored in the MyDropbox service with another user.
+
+## Usage Example:
+
+- **View Files:**
+  ```
+  >> view
+  OK
+  file1.txt nut
+  file2.txt nut
+  ```
+
+- **Upload File:**
+  ```
+  >> put file.txt
+  File uploaded successfully.
+  OK
+  ```
+
+- **Download File:**
+  ```
+  >> get file.txt nut
+  Downloading file...
+  File downloaded successfully.
+  OK
+  ```
+
+- **Create User:**
+  ```
+  >> newuser username password password
+  User created successfully.
+  OK
+  ```
+
+- **Share File:**
+  ```
+  >> share file.txt nut shared_with_username
+  File shared successfully.
+  ```
+
+### Command-Line Instructions:
+
+1. **Login:** To start using the application, log in with your username and password using the command `login username password`.
+2. **View Files:** Use the command `view` to see the list of files associated with your account.
+3. **Upload File:** Upload a file to MyDropbox using the command `put filename`.
+4. **Download File:** Download a file from MyDropbox using the command `get filename owner`.
+5. **Create User:** Register a new user with the command `newuser username password password`.
+6. **Share File:** Share a file with another user using the command `share filename owner shared_with`.
+
+### Notes:
+
+- Make sure to replace `username` and `password` with your desired credentials.
+- Use the `quit` command to exit the application.
