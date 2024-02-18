@@ -1,6 +1,6 @@
 # MyDropbox
 
-This repository is for the 2110524 Cloud Computing Technologies course Activity 5.
+This repository is for the 2110524 Cloud Computing Technologies course Activity 5 (Part 1) and 6 (Part 2).
 
 ## Source Code Files:
 
